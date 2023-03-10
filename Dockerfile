@@ -18,4 +18,4 @@ RUN python -m pip install python-dotenv --upgrade
 RUN python -m pip install openai --upgrade
 RUN python -m pip install slack_bolt --upgrade
 
-CMD cd opt/ && python app.py
+CMD cd opt && python app.py
